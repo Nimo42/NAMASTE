@@ -1,0 +1,26 @@
+/* Register-specific overrides — layout lives in Login.css */
+
+/* Two-column grid for larger register form */
+@media (min-width: 861px) {
+  .reg-grid.tight {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Smaller labels/inputs inside the compact register card */
+.vertical-scroll-card .form-label,
+.reg-card .form-label {
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+.vertical-scroll-card .form-control,
+.reg-card .form-control {
+  height: 38px;
+  font-size: 12.5px;
+}
+
+.vertical-scroll-card .text-danger,
+.reg-card .text-danger {
+  font-size: 10.5px;
+}

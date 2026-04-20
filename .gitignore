@@ -1,2 +1,34 @@
-/venv
-/__pycache__
+# Java
+target/
+*.class
+*.jar
+*.war
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# H2 Database files (persistent storage)
+backend/data/
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# Python
+ml/__pycache__/
+ml/*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env.local
